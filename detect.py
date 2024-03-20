@@ -1,10 +1,9 @@
 from ultralytics import YOLO
 import os
-import cv2 as cv
 import math
 import numpy as np
 import random
-
+import cv2 as cv
 
 def make_circle(points):
     # Convert to float and randomize order
