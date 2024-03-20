@@ -4,9 +4,6 @@ import cv2 as cv
 import math
 import numpy as np
 import random
-from PIL import Image
-from scipy.spatial import ConvexHull, Delaunay
-from scipy.spatial.distance import pdist, cdist
 
 
 def make_circle(points):
